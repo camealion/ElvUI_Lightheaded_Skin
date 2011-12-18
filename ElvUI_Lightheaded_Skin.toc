@@ -1,0 +1,10 @@
+## Interface: 40300
+## Title: |cff1784d1ElvUI|r Lightheaded Skin
+## Notes: Editless Lightheaded Skin For ElvUI/Tukui
+## Author: Camealion
+## Version: 1.2
+## RequiredDeps: Lightheaded
+## OptionalDeps: Tukui, ElvUI
+
+ElvUI_Lightheaded_Skin.lua
+!Functions.lua

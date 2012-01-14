@@ -2,11 +2,11 @@
 	local E, L, DF = unpack(ElvUI)
 	local S = E:GetModule('Skins')
 	c = E
-	DEFAULT_CHAT_FRAME:AddMessage("ElvUI is loaded")
+	--DEFAULT_CHAT_FRAME:AddMessage("ElvUI is loaded")
 else
 	local T, C, L = unpack(Tukui)
 	c = C
-	DEFAULT_CHAT_FRAME:AddMessage("Tukui is loaded")
+	--DEFAULT_CHAT_FRAME:AddMessage("Tukui is loaded")
 end
 local LightHeaded = _G.LightHeaded
 

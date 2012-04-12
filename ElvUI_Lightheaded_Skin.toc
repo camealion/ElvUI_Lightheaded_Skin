@@ -3,8 +3,8 @@
 ## Notes: Editless Lightheaded Skin For ElvUI/Tukui
 ## Author: Camealion
 ## Version: 1.2
-## RequiredDeps: Lightheaded
+## RequiredDeps: Lightheaded, LightHeaded_Data_A, LightHeaded_Data_B, LightHeaded_Data_C, LightHeaded_Data_D, LightHeaded_Data_E, LightHeaded_Data_NPC, LightHeaded_Data_QIDDesc, LightHeaded_Data_QIDNames
 ## OptionalDeps: Tukui, ElvUI
 
-ElvUI_Lightheaded_Skin.lua
 !Functions.lua
+ElvUI_Lightheaded_Skin.lua

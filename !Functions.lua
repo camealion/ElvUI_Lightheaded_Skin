@@ -1,19 +1,21 @@
 --[[ !Functions.lua by Camealion @ The Forgotten Coast US
 Use these functions to call skinning functions from ElvUI or Tukui
-Version 1.0
+Version 1.1
  ]]
  
-if ElvUI then
+if IsAddOnLoaded("ElvUI") then
 	local E, L, DF = unpack(ElvUI)
 	local S = E:GetModule('Skins')
 	s = S
 	c = E
 	--DEFAULT_CHAT_FRAME:AddMessage("ElvUI is loaded")
 else
-	local T, C, L = unpack(Tukui)
-	s = T
-	c = C
-	--DEFAULT_CHAT_FRAME:AddMessage("Tukui is loaded")
+	if IsAddOnLoaded("Tukui") then
+		local T, C, L = unpack(Tukui)
+		s = T
+		c = C
+		--DEFAULT_CHAT_FRAME:AddMessage("Tukui is loaded")
+	end
 end
 
 function cSkinButton(self)
@@ -88,9 +90,9 @@ function cSkinCloseButton(self)
 	end
 end
 
-function cSkinSliderFrame(self)
+function cSkinSliderFrame(frame)
 	if ElvUI then
-		s:HandleSliderFrame(self)
+		s:HandleSliderFrame(frame)
 	else
 		--s.SkinSliderFrame(self) --Doesn't Exist.
 	end
